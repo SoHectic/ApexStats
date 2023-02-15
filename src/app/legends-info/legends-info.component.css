@@ -1,6 +1,10 @@
-div.footer{
+*{
+  margin: 2rem 0;
+}
+
+p{
   width: 25%;
-  margin: 0 auto;
   text-align: center;
+  margin: 0 auto;
   padding: 1rem;
 }

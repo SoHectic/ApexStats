@@ -1,5 +1,7 @@
 table {
-  width: 75%;
+  min-width: 75% !important;
+  width: 75% !important;
+  margin: 2rem auto;
 }
 
 .mat-mdc-form-field {
@@ -7,6 +9,23 @@ table {
   width: 100%;
 }
 
-td, th {
+.text-center{
+  text-align: center !important;
+}
+
+.text-right{
+  text-align: right !important;
+}
+
+.text-left{
+  text-align: left !important;
+}
+
+.disclaimers{
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  padding: 1rem;
   width: 25%;
 }
+

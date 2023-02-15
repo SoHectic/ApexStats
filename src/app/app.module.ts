@@ -10,11 +10,13 @@ import {MatTableModule} from "@angular/material/table";
 import { WeaponTableComponent } from './weapon-table/weapon-table.component';
 import {MatSortModule} from "@angular/material/sort";
 import {MatToolbarModule} from "@angular/material/toolbar";
+import { LegendsInfoComponent } from './legends-info/legends-info.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    WeaponTableComponent
+    WeaponTableComponent,
+    LegendsInfoComponent
   ],
   imports: [
     BrowserModule,
