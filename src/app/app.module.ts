@@ -9,6 +9,7 @@ import {MatInputModule} from "@angular/material/input";
 import {MatTableModule} from "@angular/material/table";
 import { WeaponTableComponent } from './weapon-table/weapon-table.component';
 import {MatSortModule} from "@angular/material/sort";
+import {MatToolbarModule} from "@angular/material/toolbar";
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import {MatSortModule} from "@angular/material/sort";
     MatPaginatorModule,
     MatInputModule,
     MatTableModule,
-    MatSortModule
+    MatSortModule,
+    MatToolbarModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -43,6 +43,7 @@ const ELEMENT_DATA: WeaponData[] = [
   {category: 'Pistol',name: 'RE-45',ammoType: 'Air Drop', limbDmg: 0, bodyDmg: 0, headDmg: 0, magCap: [], btk: 0},
   {category: 'Pistol',name: 'P2020',ammoType: 'Light', limbDmg: 0, bodyDmg: 0, headDmg: 0, magCap: [], btk: 0},
   {category: 'Pistol',name: 'Wingman',ammoType: 'Sniper', limbDmg: 0, bodyDmg: 0, headDmg: 0, magCap: [], btk: 0},
+  {category: 'Special',name: 'Throwing Knife',ammoType: 'Air Drop', limbDmg: 0, bodyDmg: 0, headDmg: 0, magCap: [], btk: 0},
 ];
 
 @Component({
