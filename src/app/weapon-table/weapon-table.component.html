@@ -58,7 +58,13 @@
     <th mat-header-cell *matHeaderCellDef mat-sort-header sortActionDescription="Sort by btk">
       Bullets To Kill*
     </th>
-    <td mat-cell *matCellDef="let element"> {{element.btk}} </td>
+    <td mat-cell *matCellDef="let element">
+      {{element.btk[0]}}<br/>
+      {{element.btk[1]}}<br *ngIf="element.btk[1]"/>
+      {{element.btk[2]}}<br *ngIf="element.btk[2]"/>
+      {{element.btk[3]}}<br *ngIf="element.btk[3]"/>
+      {{element.btk[4]}}<br *ngIf="element.btk[4]"/>
+    </td>
   </ng-container>
 
   <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
