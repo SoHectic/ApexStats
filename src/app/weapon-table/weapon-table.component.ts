@@ -40,7 +40,7 @@ const ELEMENT_DATA: WeaponData[] = [
   {category: 'Marksman',name: '30-30 Charged',ammoType: 'Heavy', limbDmg: 48, bodyDmg: 57, headDmg: 91, magCap: "6/8/10/12", btk: "3/4/4/4", RPM: 139, DPS: 97, dmgPerMagBody: 684,dmgPerMagHead: 1092},
   {category: 'Marksman',name: '30-30 SP',ammoType: 'Heavy', limbDmg: 36, bodyDmg: 42, headDmg: 79, magCap: "6/8/10/12", btk: "4/5/5/6", RPM: 139, DPS: 97, dmgPerMagBody: 504,dmgPerMagHead: 948},
   {category: 'Marksman',name: '30-30 Charged SP',ammoType: 'Heavy', limbDmg: 48, bodyDmg: 57, headDmg: 107, magCap: "6/8/10/12", btk: "3/4/4/4", RPM: 139, DPS: 97, dmgPerMagBody: 684,dmgPerMagHead: 1284},
-  {category: 'Marksman',name: 'Bocek Shatter Caps',ammoType: 'Air Drop', limbDmg: 63, bodyDmg: 70, headDmg: 112, magCap: "1", btk: "3/3/3/4", RPM: 180, DPS: 129, dmgPerMagBody: 70,dmgPerMagHead: 112},
+  {category: 'Marksman',name: 'Bocek Shatter Caps',ammoType: 'Air Drop', limbDmg: 84, bodyDmg: 84, headDmg: 98, magCap: "1", btk: "2/3/3/3", RPM: 180, DPS: 129, dmgPerMagBody: 84,dmgPerMagHead: 98},
   {category: 'Marksman',name: 'Bocek',ammoType: 'Air Drop', limbDmg: 63, bodyDmg: 70, headDmg: 112, magCap: "1", btk: "3/3/3/4", RPM: 180, DPS: 107, dmgPerMagBody: 70,dmgPerMagHead: 112},
   {category: 'Sniper',name: 'Charge Rifle',ammoType: 'Sniper', limbDmg: 90, bodyDmg: 90, headDmg: 114, magCap: "8", btk: "2/2/3/3", RPM: 26, DPS: 39, dmgPerMagBody: 360,dmgPerMagHead: 456},
   {category: 'Sniper',name: 'Sentinel',ammoType: 'Sniper', limbDmg: 63, bodyDmg: 70, headDmg: 126, magCap: "4/5/6/7", btk: "3/3/3/4", RPM: 38, DPS: 44, dmgPerMagBody: 490,dmgPerMagHead: 882},
